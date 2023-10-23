@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(img/naz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 2%;
+    bottom: auto;
+    height: 20%;
+}
+
+.name {
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    font-weight: 400;
+    background-image: linear-gradient(to bottom right, rgb(238, 11, 11), rgb(121, 111, 111));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wraper {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: transparent;
+    border: 5px solid grey;
+    border-radius: 30px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.from-box {
+    height: 100%;
+    width: 85%;
+    padding: 10px;
+    background-image: transparent;
+}
+
+.from-box h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    font-weight: 500px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+.isi {
+    justify-content: space-around;
+    padding: 10px 4px;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px rgb(126, 125, 125) solid;
+}
+
+.stats {
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(218, 23, 23);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.jelas {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(240, 225, 225);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+    .name {
+        position: relative;
+        text-align: center;
+    }
+}
